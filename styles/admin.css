@@ -1,0 +1,172 @@
+/*******************************************/
+/* Admin Dashbord styles - start */
+/******************************************/
+
+.admin-dashboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th, tbody td {
+    border: 1px solid #333333;
+    padding: 8px;
+    text-align: left;
+}
+
+.delete-message{
+    background: #D4EDDA !important;
+    border: 1px solid #B1DFBB !important;
+    padding: 20px 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.fail{
+    color: #ff5769;
+}
+.pass{
+    color: #00a528;
+}
+
+.delete_record {
+    color: black;
+    background: #F5C6CB;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+a.admin-logout{
+    background: white;
+    padding: 10px 20px;
+    color: black;
+    border-radius: 5px;
+}
+
+.tabs {
+    margin-top: 30px;
+}
+
+.tabs li a {
+
+    display: block;
+    padding: 20px 25px;
+    color: black; 
+    text-decoration: none;
+    background-color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tabs li a:hover {
+    background-color: black;
+    color: white; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.left-column {
+    flex: 1;
+
+}
+.table-responsive {
+    margin-left: 20px;
+}
+.right-column {
+    flex: 2;
+}
+
+/* Style For the form */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-container{
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+/* Apply button styles */
+input[type="submit"],
+input[type="button"] {
+    background: var(--black);
+    color: white;
+    padding: 10px 0; /* Adjust padding to center vertically */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all ease 350ms;
+    margin-top: 10px; /* Add margin to separate buttons */
+    width: 100%; /* Make buttons 100% width */
+    margin:5px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background: var(--green);
+}
+
+/*******************************************/
+/* Admin Dashbord styles - End */
+/******************************************/

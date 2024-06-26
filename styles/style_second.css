@@ -1,0 +1,148 @@
+/*******************************************/
+/* Quiz message styles - start */
+/******************************************/
+
+/* Form Alart  */
+.form-section .alert-succes{
+    background: #D4EDDA;
+    border: 1px solid #B1DFBB;
+    padding: 20px 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.hidden-message{
+    margin-top: 5px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.hidden-message a{
+    color: #689F63;
+}
+
+/* Score Table styles */
+.scores{
+    margin-top: 20px;
+}
+
+.scores h3{
+    text-align: center;
+}
+
+.scores table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+.scores th, .scores td {
+    border: 1px solid #333333;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+.scores th {
+    background-color: #689F63;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.scores tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.scores tr:nth-child(odd) {
+    background-color: #F2F2F2;
+}
+
+.form-section #clear-button{
+    background: var(--black);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all ease 350ms;
+    margin-left: 10px;
+}
+
+.form-section #clear-button:hover{
+    background: var(--green);
+}
+
+/*******************************************/
+/* Quiz message styles - End */
+/******************************************/
+
+
+
+/*******************************************/
+/* Login Page styles - start */
+/******************************************/
+
+.log-cont-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+}
+
+.login-column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: left;
+}
+
+.login-column h2 {
+    margin-bottom: 40px;
+    color: #689F63;
+    text-align: center;
+}
+
+.login-column label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.login-column input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-column button {
+    background-color: #689F63;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Add more space below the form */
+    transition: background-color 0.3s;
+}
+
+.login-column button:hover {
+    background-color: #577D4B;
+}
+
+/*******************************************/
+/* Login Page styles - End */
+/******************************************/
